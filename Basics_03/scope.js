@@ -4,14 +4,50 @@ if(true) {
     let a = 10; 
     const b = 20;
     var c = 30;
-    console.log("Inner Value =  " + a);
+    // console.log("Inner Value =  " + a);
     // console.log("Inner Value = ", a);
 }
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+// Example of nested function 
+function one() {
+    const username = "Raja";
+
+    function two() {
+        const website = 'youtube';
+        console.log(username);
+    }
+    // console.log(website);
+    two();
 }
+
+// one();
+
+
+if(true) {
+    const username = "Raja";
+    if(username === "Raja") {
+        const website = "Youtube";
+        // console.log(username + website);
+    }
+    // console.log(website);
+}
+// console.log(username);
+
+console.log(addOne(5)); //-> Executing the function before initialization.
+
+function addOne(num) {
+    return num + 1;
+}
+
+
+// console.log(addTwo(5)); -> It will shown an error  i.e "cannot access before initialization."" 
+
+const addTwo = function(num) {
+    return num + 2;
+}
+
+
