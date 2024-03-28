@@ -12,6 +12,8 @@ const gameName = new String("Raja-gupta-24")
 // console.log(gameName)  //[String: 'Rajagupta']
 // console.log(typeof gameName)  //object
 
+// Note :-  String is a key value pair concept not an array.
+
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
 
@@ -27,8 +29,8 @@ console.log(newString)
 console.log(newString.trim())
 
 const url = "https://www.rajagupta.com/raja%20gupta";
-console.log(url.replace("%20", "-"));
-
+// console.log(url.replace("%20", "-"));
+// console.log(url.replaceAll("/", "-"));
 console.log(url.includes('sundar'))
 
 console.log(gameName.split("-")) //Convert into an array
