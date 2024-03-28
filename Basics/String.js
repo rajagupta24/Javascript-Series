@@ -1,4 +1,4 @@
-let myName = "Raja";
+let myName = "Raja"; //type is string
 let repoCount = 5;
 
 let finalValue = myName + " " + repoCount; //Old way to do string Concatenation
@@ -8,7 +8,7 @@ console.log(finalValue)
 console.log(`Hello my name is ${myName} and my repo count is ${repoCount}`) //latest way 
 
 // Another way to declare a string
-const gameName = new String("Raja-gupta-24")
+const gameName = new String("Raja-gupta-24") //-> type is Object
 // console.log(gameName)  //[String: 'Rajagupta']
 // console.log(typeof gameName)  //object
 
